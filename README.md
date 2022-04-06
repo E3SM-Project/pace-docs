@@ -1,2 +1,0 @@
-# pace-docs
-PACE Documentation

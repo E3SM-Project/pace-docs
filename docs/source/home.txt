@@ -1,0 +1,44 @@
+
+Getting started
+    ways looking for experiments
+
+    - 10 recent are shown, use sort by (ID, user, machine, compset,res,case,total PEs, Run length, throughtput,Init time, expdate)
+      in search.
+      
+    - search on sepcific platforms
+    - search on specific Benchmarks
+    - search on specific Simulations
+    - use search functionality
+
+    Single experiments details
+        - Hover over a specific experiments for sepicific details.
+
+    Compare multiple experiments
+        - check box for different experiments and available graph comparision buttons lights up green.
+    
+
+
+    Single experiment
+
+        Experiment details section
+
+        -  Displays the meta data for the experiments.
+        - shows the graph for each model componenet
+        - to view summary of global stats for this experiment click on summary Global Statistics under graph
+        - to view the tree graph click on Rank under tree graph
+        - to view Flame graph click on Rank under Flame graph
+        - to view the atmosphere model process, click on Atm process distribution under Component Process
+        - to view the Scorpio IO statistics, click on Scorpio I/O Statistics.
+        - to view the Memory usage data, click on Memory Usage Profile.
+
+        - To download raw data please click Download Raw data
+        - To add your personal notes for this experiment, Click and Add/Edit button.
+
+        Model Component section
+
+        - Model Componenet section shows the table which includes the runtime and throughput of each model and can be sorted
+            by its column name by clicking its respective coloumn name.
+            This section also shows the  Simulation Time VS Processor number graph of the components.
+        
+        Model Input Files sections
+        - This section includes the list of the input files which can be viewed by clicking the respective file name. 
