@@ -1,19 +1,19 @@
-Getting-Started-Portal
+PACE Web Portal
 =====
 
 To navigate to the portal go to `Performance Analytics for Computational Experiments (PACE). <https://pace.ornl.gov/>`_
-10 most recent experiments are displayed in the home screen. To view more recent experiments, click on More Exps button at bottom of the list.
+10 most recent experiments are displayed by defauly on the home screen. To view more experiments, click on More Exps button at bottom of the list.
 
 .. image:: pictures/homeScreen.png
 
 
-There is a high level navigation menu based on sepcific platforms, benchmarks, simulations on top of the page. Navigating through this will
-load up the 10 most recent experiments on that respective area and to view more click on the More Exps button at bottom of the list. 
+There is a high level navigation menu based on specific platforms, benchmarks, simulations etc. at the top of the page. Navigating through this will
+load up the 10 most recent experiments meeting the respective criteria. To view more, click on the More Exps button at bottom of the list. 
 
 .. image:: pictures/HomeScreenHighLevel.png
 
-User can also serach for any specific experiments using the search functionality. This is a free form search with auto complete. 
-The experiments can be sorted by available option in both ascending and descending order.
+An user can also search for desired set of experiments using the search functionality. The portal offers a free form search with auto complete capability. 
+The experiments can be sorted by available options in the dropbox menu in either ascending and descending order.
 
 .. image:: pictures/homeScreenSearch.png
 
@@ -33,7 +33,7 @@ If you are looking for a exact match prepend '$' keyword to your search query.
 More details about advanced search can be found `here <https://pace.ornl.gov/searchTips/>`_ .
 
 
-Another capability available is a summary scatter plot. Click on the 'Scatter Plot' button on top right. This will display a scatter graph.
+Another capability available is a summary scatter plot. Click on the 'Scatter Plot' button on top right. This will display a scatter graph of 50 most recent experiments matching the search criteria.
 The summary can be displayed for Machine, User, Compset and Res. To view for specific experiments, click on labels on top of graph which will hide/show that data point.
 Use labels to filter further down to your interest.
 
@@ -42,8 +42,8 @@ Use labels to filter further down to your interest.
 Single Experiment
 -------------------
 
-To view the specific experiment, click anywhere on the experiment row.
-This will open up the detail profile page for that experiment.
+To view the specific experiment, click anywhere on the experiment row. 
+This will open up the details page for that experiment.
 
 .. image:: pictures/HomeScreenSingleExperiment.png
 
@@ -53,10 +53,10 @@ More details on Single experiments
 
     single-experiment
 
-Multiple Experiment
+Multiple Experiments
 --------------------
 
-To compare multiple experiments, Check box for your desire experiments and following graph options will light up green. 
+To compare multiple experiments, check boxes for your desired experiments and available graph options will light up green. 
 This will allow for multiple experiments to be viewed simultaneously in their respective graphs.
 
 .. image:: pictures/HomeScreenMultipleCompare.png
