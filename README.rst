@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+PACE Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Read the PACE Documentation here:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://pace-docs.readthedocs.io/en/latest/index.html
