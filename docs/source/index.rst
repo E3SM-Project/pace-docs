@@ -22,6 +22,7 @@ Contents
 
    homepage
    getting-started
+   developer
    team
 
 
