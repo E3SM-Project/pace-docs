@@ -8,8 +8,20 @@ Performance data from simulations executed on supported supercomputers is automa
 PACE processes and ingests that information into the backend database.
 Finally, an user can interactively explore the performance data through the web portal.
 
-High-level view of the PACE Architecture.
+.. toctree::
 
-.. image:: pictures/highLevelArch.png
+    architecture
+
+
+APIs
+-------------
+
+.. toctree::
+
+    api
+
+
+
+
 
 
