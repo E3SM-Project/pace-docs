@@ -18,7 +18,7 @@ APIs
 
 .. toctree::
 
-    api
+    apidocs
 
 
 
