@@ -432,3 +432,31 @@ XML File
 
         data is json object
 
+
+Unit Test Parser
+-----------------
+
+    To perform unit test for e3sm parsers, use e3smParserTest.py script available under pace/e3sm/unit_test
+
+    **Example request**:
+
+    .. tabs::
+
+        .. code-tab:: bash
+
+            python3 e3smParserTest.py
+    
+    **Example response**:
+
+    .. sourcecode:: bash
+
+        ............
+        ----------------------------------------------------------------------
+        Ran 12 tests in 0.017s
+
+        OK
+
+    .. note::
+
+        Test case are pre-defined
+        
