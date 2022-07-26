@@ -1,5 +1,10 @@
-E3SM Parser
+E3SM
 ==============
+
+
+Parser
+--------------
+
 
 Build Time
 ++++++++++++++
@@ -12,16 +17,19 @@ Build Time
 
         .. code-tab:: python
 
-            import 
+            import parseBuildTime
+
+            data, total_compute_cost, total_elasped_time = parseBuildTime.loaddb_buildTimesFile(filename)
     
     .. note::
 
-        block
+        data consist of long string
+        total_compute_cost, total_elasped_time are floating numbers
 
 Timing
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file e3sm_timing.* file.
 
     **Example request**:
 
@@ -29,16 +37,20 @@ Timing
 
         .. code-tab:: python
 
-            import 
+            import parseE3SMTiming
+
+            successFlag, timingProfileInfo, componentTable, runTimeTable = parseE3SMTiming.parseE3SMtiming(filename)
     
     .. note::
 
-        block
+        successFlag is bolean
+        timingProfileInfo is json object
+        componentTable, runTimeTable are list
 
 Memory Profile
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file memory.* .
 
     **Example request**:
 
@@ -46,16 +58,18 @@ Memory Profile
 
         .. code-tab:: python
 
-            import 
+            import parseMemoryProfile
+
+            data = parseMemoryProfile.loaddb_memfile(filename)
     
     .. note::
 
-        block
+        data is long string
 
 Model Version
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file GIT_DESCRIBE.* .
 
     **Example request**:
 
@@ -63,16 +77,18 @@ Model Version
 
         .. code-tab:: python
 
-            import 
+            import parseModelVersion
+
+            data = parseModelVersion.parseModelVersion(filename)
     
     .. note::
 
-        block
+        data is string
 
 Namelist
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file namelist files in casedocs.
 
     **Example request**:
 
@@ -80,33 +96,37 @@ Namelist
 
         .. code-tab:: python
 
-            import 
+            import parseNameList
+
+            data = parseNameList.loaddb_namelist(file)
     
     .. note::
 
-        block
+        data is json object
 
 Preview Run
 ++++++++++++++
 
-    This parses file build_times.txt.
-
+    This parses file preview_run.log.* .
+    
     **Example request**:
 
     .. tabs::
 
         .. code-tab:: python
 
-            import 
+            import parsePreviewRun
+
+            data = parsePreviewRun.load_previewRunFile(file)
     
     .. note::
 
-        block
+        data is json object
 
 RC File
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file seq_maps.rc.* .
 
     **Example request**:
 
@@ -114,16 +134,18 @@ RC File
 
         .. code-tab:: python
 
-            import 
+            import parseRC
+
+            data = parseRC.loaddb_rcfile(file)
     
     .. note::
 
-        block
+        data is json object
 
 README File
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file README.case.* .
 
     **Example request**:
 
@@ -131,16 +153,18 @@ README File
 
         .. code-tab:: python
 
-            import 
+            import parseReadMe
+
+            data = parseReadMe.parseReadme(file)
     
     .. note::
 
-        block
+        data is a json object
 
 Replay sh
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file replay.sh.* .
 
     **Example request**:
 
@@ -148,16 +172,18 @@ Replay sh
 
         .. code-tab:: python
 
-            import 
+            import parseReplaysh
+
+            data = parseReplaysh.load_replayshFile(file)
     
     .. note::
 
-        block
+        data is a text blob
 
 Run e3sm sh
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file run_e3sm.sh.* .
 
     **Example request**:
 
@@ -165,16 +191,18 @@ Run e3sm sh
 
         .. code-tab:: python
 
-            import 
+            import parseRunE3SMsh
+
+            data = parseRunE3SMsh.load_rune3smshfile(file)
     
     .. note::
 
-        block
+        data is text blob
 
 Scorpio
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses file scorpio_stats.* .
 
     **Example request**:
 
@@ -182,16 +210,19 @@ Scorpio
 
         .. code-tab:: python
 
-            import 
+            import parseScorpioStats
+            
+            run_time = 5 #(actual experiment run_time)
+            data = parseScorpioStats.loaddb_scorpio_stats(file,run_time)
     
     .. note::
 
-        block
+        data is a list of json.
 
 XML File
 ++++++++++++++
 
-    This parses file build_times.txt.
+    This parses XML files in casedocs.
 
     **Example request**:
 
@@ -199,9 +230,11 @@ XML File
 
         .. code-tab:: python
 
-            import 
+            import parseXML
+
+            data = parseXML.loaddb_xmlfile(file)
     
     .. note::
 
-        block
+        data is json object
 
