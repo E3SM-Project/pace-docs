@@ -21,6 +21,14 @@ APIs
     apidocs
 
 
+Projects
+--------------
+
+.. toctree::
+
+    e3sm
+
+
 
 
 
