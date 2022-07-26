@@ -5,6 +5,7 @@ API list
 +++++++++++++
 
 
+`` /api/test ``
 
     Retrieve a list of all the projects for the current logged in user.
 
