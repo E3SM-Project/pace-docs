@@ -1,6 +1,9 @@
 Endpoints
 -----------
 
+API list
++++++++++++++
+
 .. http:get:: /api/v3/projects/
 
     Retrieve a list of all the projects for the current logged in user.
