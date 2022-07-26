@@ -28,7 +28,7 @@ API list
         ]
 
     **Query parameters**
-            * entry (string): value from the list ['machine,'user']
+            * entry (string): value from the list ``['machine,'user']``
 
     .. note::
 
