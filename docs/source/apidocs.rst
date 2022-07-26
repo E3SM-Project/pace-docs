@@ -106,8 +106,8 @@ API list
         returns scatter plot data
 
     **Query parameters**
-            * query (string): string value
-            * whitelist (string): value from the list ``[expid,machine,model_throughput,total_pes_active]``
+            * ``query (string)``: string value
+            * ``whitelist (string)``: value from the list ``[expid,machine,model_throughput,total_pes_active]``
 
     .. note::
 
