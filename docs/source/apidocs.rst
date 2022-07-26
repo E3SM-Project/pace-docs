@@ -5,7 +5,7 @@ API list
 +++++++++++++
 
 
-`` /api/test ``
+.. envvar:: /api/test
 
     Retrieve a list of all the projects for the current logged in user.
 
