@@ -15,29 +15,21 @@ API list
 
         .. code-tab:: bash
 
-            $ curl -H "Authorization: Token <token>" https://readthedocs.org/api/v3/projects/
-
-        .. code-tab:: python
-
-            import requests
+            $ curl https://pace.ornl.gov/ajax/getDistinct/<entry>
 
     **Example response**:
 
     .. sourcecode:: json
 
-        {
-            "count": 25,
-            "next": "/api/v3/projects/?limit=10&offset=10",
-            "previous": null
-        }
+        [
+            'summit',
+            'cori',
+            'compy'
+        ]
 
-    :>json string next: URI for next set of Projects.
-    :>json string previous: URI for previous set of Projects.
-    :>json integer count: Total number of Projects.
-    :>json array results: Array of ``Project`` objects.
+    **Query parameters**
+            * entry (string): value from the list ['machine,'user']
 
-    :query string slug: Narrow the results by matching the exact project slug
-    
     .. note::
 
        note
