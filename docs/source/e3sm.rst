@@ -444,7 +444,7 @@ Unit Test Parser
 
         .. code-tab:: bash
 
-            python3 e3smParserTest.py
+            $ python3 e3smParserTest.py
     
     **Example response**:
 
